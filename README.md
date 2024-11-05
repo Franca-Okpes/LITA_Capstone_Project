@@ -111,3 +111,14 @@ TOTAL REVENUE
 ### Data Visualization
 ---
 
+![Pie-chart Logo](https://github.com/user-attachments/assets/b0a9dc08-9546-434e-8016-df6268d0a80d)
+
+
+![Regional performance $ monthly trend](https://github.com/user-attachments/assets/d5cfe38f-9c70-4eab-843b-1c81a5ccba55)
+
+
+![sales performance by revenue and product](https://github.com/user-attachments/assets/5cd9be6d-bf9f-4619-8775-51954c3dc277)
+
+
+![Line chart for monthly sales trend](https://github.com/user-attachments/assets/eeed9f2f-a178-4760-bb9b-dae366107cc4)
+
