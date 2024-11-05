@@ -86,3 +86,6 @@ ORDER BY revenue_percentage DESC;
 TOTAL REVENUE
 =F2*G2
 ```
+
+### Data Visualization
+---
