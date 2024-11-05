@@ -111,10 +111,3 @@ TOTAL REVENUE
 ### Data Visualization
 ---
 
-![Pie-chart Logo](https://github.com/user-attachments/assets/8f0387f8-25f0-4257-99da-419063691e4c)
-
-
-![Line chart for monthly sales trend](https://github.com/user-attachments/assets/56eb6a4e-f69d-486c-ac79-58aba3f7277d)
-
-
-![Line chart showing customer purchase](https://github.com/user-attachments/assets/ea30022c-083c-45ad-91d3-bc95f5ccf3e4)
