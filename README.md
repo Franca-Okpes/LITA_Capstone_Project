@@ -16,7 +16,8 @@ The tools used in this retail shop analysis analysis are
   2.  For Analysis
   3.  For Data Visualization
 
--  SQL - Structure Query Language for Quering Data
+-  SQL Structure Query [Download Here](https://www.microsoft.com/en-us/evalcenter/download-sql-server-2019)
+*  SQL Structure Query Language for Quering Data
 -  
 -  Power Bi for visualization of the analysis carried out on Microsoft Excel and SQL
 -  
