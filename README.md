@@ -2,6 +2,27 @@
 
 ## Project Title: Sales Performance Analysis for a Retail Store 
 
+[Project Overview](#project-overview)
+
+
+[Data Sources](#data-sources)
+
+
+[Tools Used](#tools-used)
+
+
+[Data Cleaning and Preparations](#data-cleaning-and-preparations)
+
+
+[Exploratory Data Analysis (EDA)](exploratory-data-analysis-eda)
+
+
+[Data Analysis](#data-analysis)
+
+
+[Data Visualization](#data-visualization)
+
+
 ### Project Overview
 ---
 This repository contains an analysis of retail store sales performance. The project explores sales data to identify key insights, including top-selling products, regional performance, and monthly sales trends. The goal is to create an interactive Power BI dashboard that effectively visualizes these findings.
