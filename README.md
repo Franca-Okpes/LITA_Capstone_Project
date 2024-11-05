@@ -1,16 +1,18 @@
 # LITA_Capstone_Project
 
 ## Project Title: Sales Performance Analysis for a Retail Store 
-### Project Overview
 
+### Project Overview
+---
 This repository contains an analysis of retail store sales performance. The project explores sales data to identify key insights, including top-selling products, regional performance, and monthly sales trends. The goal is to create an interactive Power BI dashboard that effectively visualizes these findings.
 
 ### Data Sources
-
+---
  The primary source of Data used here is a DataSale.xlsx which is an open source Data that can be freely downleaded from an open source online such as Kaggleor FRED or any other Data repository site.
 
 ### Tools Used
-The tools used in this retail shop analysis analysis are
+---
+The tools used in analysing the Dataset from the retail shop are
 -  Microsoft Excel [Download Here](https://www.microsoft.com)
    1.  For Data cleaning
    2.  For Analysis
@@ -25,13 +27,14 @@ The tools used in this retail shop analysis analysis are
 -   Github for Portfolio Building
 
   ### Data Cleaning and Preparations
-
+---
  In the initial phase of Data cleaning and preparation, I performed the following action;
 1. Data Importation and Inspection
 2. Handling missing variables
 3.   Data Cleaning and Formatting
     
  ### Exploratory Data Analysis (EDA)
+ ---
  Exploratory Data Analysis (EDA) helps uncover insights by addressing key questions such as:
  -   Which product is the top seller?
  -   How does performance vary across regions?
@@ -40,13 +43,46 @@ The tools used in this retail shop analysis analysis are
  -   How much revenue does each product generate annually?
 
 ### Data Analysis
-
+---
 This is the section I included my basic lines of code or queries or even some of the DAX (Data Analysis Expression) ecpressions used during the analysis; 
 - Eg
 
   ```SQL
-  SELECT * FROM
+  SELECT
+  Product,
+    SUM(revenue) as total_sales 
+FROM [dbo].[LITA+Capstone+SalesDataset]
+GROUP BY Product
+ORDER BY Product
   ```SQL
   
- 
- 
+ ```SQL
+SELECT
+product,
+sum (revenue) as highest_selling_product
+from[dbo].[LITA+Capstone+SalesDataset]
+group by product
+order by 2 desc
+ ```
+
+```SQL
+SELECT 
+    region,
+    SUM(revenue) AS region_revenue,
+    CAST(
+        (SUM (revenue) * 100.0) / 
+        (SELECT SUM(revenue) FROM [dbo].[LITA+Capstone+SalesDataset])
+    AS DECIMAL(10,2)
+	)AS revenue_percentage
+	FROM [dbo].[LITA+Capstone+SalesDataset]
+GROUP BY region
+ORDER BY revenue_percentage DESC;
+```
+
+```EXCEL
+=AVERAGEIF(C:C, "shirt",H:H)
+```
+```EXCEL
+TOTAL REVENUE
+=F2*G2
+```
